@@ -21,6 +21,7 @@ const Button = ({
         color: color,
         borderRadius: borderRadius,
         border: border,
+      
         
       }}
     >
