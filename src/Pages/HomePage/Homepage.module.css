@@ -12,4 +12,14 @@
     url(../../Assets/hero-min.jpg);
     background-position: center;
     background-size: cover;
+    width: 100%;
 }
+.heroLogo{
+ width: 70rem;
+}
+@media (max-width:600px){
+  .heroLogo{
+    width: 65rem;
+  }
+}
+

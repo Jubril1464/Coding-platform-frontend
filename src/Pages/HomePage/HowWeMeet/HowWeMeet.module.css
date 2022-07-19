@@ -1,25 +1,33 @@
-.meet{
-    padding: 5rem;
-    text-align: center;
-    font-size: 2rem;
-   
+.meet {
+  padding: 5rem;
+  text-align: center;
+  font-size: 2rem;
 }
-.headingSecondary{
-    font-size: 3.5rem;
-    color: rgba(0,0,0,.6);
-    margin-bottom: 2rem;
-    text-transform: uppercase;
+.headingSecondary {
+  font-size: 3.5rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
 }
-.paragraph{
-    color: rgba(0,0,0,.4);
+.paragraph {
+  color: rgba(0, 0, 0, 0.4);
 }
-.marginTopBig{
-    margin-top: 15rem;
+.marginTopBig {
+  margin-top: 15rem;
 }
-.container{
-    display: flex;
+.container {
+  display: flex;
 }
-.containerImg{
-    height: 40rem;
-    width: 50rem;
+.containerImg {
+  height: 40rem;
+  width: 50rem;
+}
+@media (max-width: 900px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .containerImg {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
 }

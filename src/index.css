@@ -5,19 +5,33 @@
   padding: 0;
 }
 html {
-  font-size: 62.5%;
-  box-sizing: border-box;
-  font-family: 'Old Standard TT';
+  font-size: 62.5%; /* 1rem = 10px, 10/16 = 62.5% */
+
+  font-family: "Old Standard TT";
 }
 body {
-  
-  
+  box-sizing: border-box;
 }
-@media (max-width:700px){
-  html{
-    font-size: 42.5%;
+:root{
+  --color-bg : #f8f9fd
+}
+
+
+/* Media query for tab-landscape */
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
   }
-
 }
-
-
+/* Media query for tab-portrait */
+@media (max-width: 900px) {
+  html {
+    font-size: 50%;  /* 1rem = 8px , 8/16 = 50% */
+  }
+}
+/* Media query for phone */
+@media (max-width: 600px) {
+  html {
+     font-size: 40%;  /* 1rem = 7px , 6/16 = 43.75% */
+  }
+}
