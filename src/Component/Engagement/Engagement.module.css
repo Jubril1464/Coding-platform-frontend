@@ -1,0 +1,40 @@
+.engagement{
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem;
+    color: rgba(0,0,0,.6);
+    
+}
+.engagement > h3{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.img__container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 2rem;
+}
+.img__container > img {
+    width: 20rem;
+}
+@media (max-width:600px){
+    .img__container{
+        display: block;
+    }
+    .img__container > img {
+        display: block;
+    }
+}
+@media (max-width:900px){
+    .img__container{
+        display: block;
+        
+    }
+    .img__container > img {
+        display: block;
+        margin: 0 auto;
+    }
+    .img__container > img:not(:last-child){
+        margin-bottom: 2rem;
+    }
+}

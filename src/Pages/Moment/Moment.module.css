@@ -1,0 +1,17 @@
+.moment{
+    font-size: 2rem;
+    text-align: center;
+    padding: 5rem;
+    
+}
+.heading__secondary{
+    text-transform: uppercase;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 1rem;
+}
+.paragraph{
+    color: rgba(0,0,0,.4);
+}
+.img{
+    height: 70rem;
+}
