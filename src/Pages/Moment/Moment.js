@@ -4,7 +4,7 @@ import img from '../../Assets/iphone_instagram.jpg'
 
 const Moment = () => {
   return (
-    <div className={styles.moment}>
+    <div className={styles.moment} id='instagram'>
       <h3 className={styles.heading__secondary}>
         A picture is worth a thousand words !
       </h3>

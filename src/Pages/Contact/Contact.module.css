@@ -1,0 +1,53 @@
+.formContainer {
+  padding: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.headingTertiary {
+  margin-bottom: 3rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.paragraph {
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 3rem;
+}
+.form__input {
+  padding: 1.5rem 3.5rem;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  width: 100%;
+  margin-left: -3rem;
+  position: relative;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+  
+}
+.form__input::-webkit-input-placeholder{
+    color:rgba(0, 0, 0, 0.4) ;
+}
+.form__input:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.form__input:focus {
+  outline: none;
+}
+.form__group {
+  width: 50%;
+
+  display: flex;
+  margin: 0 auto;
+}
+.ctaBtn {
+  flex: 1;
+}
+.icon {
+  z-index: 2;
+  color: #ca8a04;
+  
+ 
+  
+
+}

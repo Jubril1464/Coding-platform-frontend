@@ -10,9 +10,9 @@ const Event = () => {
     setShow(!show)
   }
   return (
-    <div className={eventStyles.event}>
+    <div className={eventStyles.event} id='event'>
       <Modal show={show} close={Toggle} />
-      <h3 className={eventStyles.headingTertiary}>Events</h3>
+      <h3 className={eventStyles.headingTeeventrtiary}>Events</h3>
       <div className={eventStyles.rowContainer}>
         <div className={eventStyles.row}>
           <p className={eventStyles.paragraph}>27th November</p>

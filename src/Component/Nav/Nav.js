@@ -58,22 +58,22 @@ function Nav() {
         <nav className={navStyles.navigation__nav}>
           <ul className={navStyles.navigation__list}>
             <li className={navStyles.navigation__item}>
-              <a href="/" className={navStyles.navigation__link}>
+              <a href="#HowWeMeet" className={navStyles.navigation__link}>
                 How We Meet
               </a>
             </li>
             <li className={navStyles.navigation__item}>
-              <a href="/" className={navStyles.navigation__link}>
+              <a href="#event" className={navStyles.navigation__link}>
                 Events
               </a>
             </li>
             <li className={navStyles.navigation__item}>
-              <a href="/" className={navStyles.navigation__link}>
+              <a href="#instagram" className={navStyles.navigation__link}>
                 Instagram
               </a>
             </li>
             <li className={navStyles.navigation__item}>
-              <a href="/" className={navStyles.navigation__link}>
+              <a href="#engagement" className={navStyles.navigation__link}>
                 Engagement
               </a>
             </li>

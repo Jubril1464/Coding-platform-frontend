@@ -10,6 +10,7 @@ const Button = ({
   borderRadius,
   border,
   onClick,
+  width
 }) => {
   return (
     <button
@@ -21,6 +22,7 @@ const Button = ({
         color: color,
         borderRadius: borderRadius,
         border: border,
+        width:width
       
         
       }}

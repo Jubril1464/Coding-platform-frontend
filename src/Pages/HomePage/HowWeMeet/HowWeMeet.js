@@ -14,7 +14,7 @@ const data = [
 
 const HowWeMeet = () => {
   return (
-    <div className={meetStyles.meet}>
+    <div className={meetStyles.meet} id='HowWeMeet'>
       <h2 className={meetStyles.headingSecondary}>We are getting hitched</h2>
       {data.map(({ firstDay, secondDay, month, year }) => (
         <p className={meetStyles.paragraph}>

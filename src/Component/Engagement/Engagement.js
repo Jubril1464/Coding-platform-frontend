@@ -9,7 +9,7 @@ import img6 from "../../Assets/NGP_4119-sm.jpg";
 
 function Engagement() {
   return (
-      <div className={styles.engagement}>
+      <div className={styles.engagement} id='engagement'>
           <h3>Engagement Pics</h3>
           <div className={styles.img__container}>
               <img src={img1} alt="" />

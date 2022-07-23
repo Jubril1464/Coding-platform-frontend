@@ -1,0 +1,32 @@
+.footer{
+    padding: 3rem;
+    text-align: center;
+}
+/* .container{
+    height: 1px;
+    width: 100%;
+    background: black;
+    position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.icon{
+    position: absolute;
+    z-index: 2;
+   
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 1px;
+    background-color: rgba(0,0,0,.6);;
+    width: 50%;
+}
+.icon{
+    color: rgba(0,0,0,.6);
+    
+}

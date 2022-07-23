@@ -5,6 +5,8 @@ import HowWeMeet from "./Pages/HomePage/HowWeMeet/HowWeMeet";
 import Event from "./Pages/HomePage/Event/Event";
 import Moment from "./Pages/Moment/Moment";
 import Engagement from "./Component/Engagement/Engagement";
+import Contact from "./Pages/Contact/Contact";
+import Footer from "./Component/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Event />
       <Moment />
       <Engagement />
+      <Contact />
+      <Footer />
     </div>
   );
 }
