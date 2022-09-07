@@ -12,6 +12,7 @@ const Footer = () => {
           <span className={styles.icon}>
             {" "}
             <IoIosArrowDropup size={50} />
+           
           </span>{" "}
         </a>
         <div className={styles.line}></div>

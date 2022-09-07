@@ -5,6 +5,11 @@
     background-color: var(--color-bg);
     
 }
+@media (max-width: 600px) {
+    .event{
+        padding: 5rem 0rem;
+    }
+}
 .headingTertiary{
     margin-bottom: 3rem;
     color: rgba(0,0,0,.7);
@@ -20,6 +25,11 @@
 }
 .row{
     padding: 0 7rem;
+}
+@media (max-width: 600px) {
+ .row {
+    padding:  0 3rem;
+ }
 }
 .row:not(:last-child){
     border-right: 1px solid rgba(0,0,0,.4);
