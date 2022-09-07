@@ -35,7 +35,7 @@
   outline: none;
 }
 .form__group {
-  width: 50%;
+  width: 90%;
 
   display: flex;
   margin: 0 auto;
@@ -46,8 +46,9 @@
 .icon {
   z-index: 2;
   color: #ca8a04;
-  
- 
-  
-
+}
+@media (max-width: 600px) {
+  .icon {
+    margin-bottom: 2rem;
+  }
 }
